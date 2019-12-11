@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Register",
+        "description": "",
+        "id": "validating-demo-automation;register",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7112859938,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch the url",
+            "match": {
+              "location": "Stepdefnitions.launch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1705241784,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on signin",
+            "match": {
+              "location": "Stepdefnitions.Signin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 224029602,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Email as \"nivi1827@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nivi1827@gmail.com",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefnitions.Email(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115201533,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password as \"91598498\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "91598498",
+                  "offset": 19
+                }
+              ],
+              "location": "Stepdefnitions.Passwd(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70624008,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click Enter button",
+            "match": {
+              "location": "Stepdefnitions.close()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Validating demo automation",
+    "description": "",
+    "id": "validating-demo-automation",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
